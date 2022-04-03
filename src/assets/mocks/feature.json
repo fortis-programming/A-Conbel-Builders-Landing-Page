@@ -1,0 +1,19 @@
+{
+    "data": [
+        {
+            "title": "Progress",
+            "description": "Sample service description and some short discussion on what your company offers.",
+            "icon": "../../../../assets/images/chart.png"
+        },
+        {
+            "title": "Secured",
+            "description": "Sample service description and some short discussion on what your company offers.",
+            "icon": "../../../../assets/images/policy.png"
+        },
+        {
+            "title": "Cost",
+            "description": "Sample service description and some short discussion on what your company offers.",
+            "icon": "../../../../assets/images/dividends.png"
+        }
+    ]
+}

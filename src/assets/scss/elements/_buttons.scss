@@ -1,0 +1,15 @@
+.btn {
+  font-size: 0.855rem;
+  padding: 8px 30px !important;
+
+  &__contact {
+    color: white !important;
+    background-color: $product-color;
+    margin-left: 20px;
+  }
+
+  &__secondary {
+    color: white !important;
+    background-color: $product-color;
+  }
+}
