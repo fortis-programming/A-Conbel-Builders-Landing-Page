@@ -1,113 +1,25 @@
-<!-- <div class="header fixed-top py-3">
-  <div class="wrapper d-flex justify-content-between">
-    <div class="banner my-auto" routerLinkActive="active" routerLink="home">
-      <strong>Logo</strong>
-    </div>
-    <nav class="nav-container">
-      <div class="nav-items mx-4 my-auto" data-toggle="tooltip" data-placement="right" title="home">
-        <div routerLinkActive="active" routerLink="projects">
-          <label>Projects</label>
-        </div>
-      </div>
-      <div class="nav-items mx-4 my-auto" data-toggle="tooltip" data-placement="right" title="Repositories">
-        <div routerLinkActive="active" routerLink="repositories">
-          <label>Services</label>
-        </div>
-      </div>
-      <div class="nav-items mx-4 my-auto">
-        <div routerLinkActive="active" routerLink="about" data-toggle="tooltip" data-placement="right" title="Bookmarks">
-          <label>About</label>
-        </div>
-      </div>
-      <div class="nav-items my-auto btn btn__contact shadow-sm">
-        <div routerLinkActive="active" routerLink="bookmarks" data-toggle="tooltip" data-placement="right" title="Bookmarks">
-          <label>Contact</label>
-        </div>
-      </div>
-    </nav>
-
-    <nav class="nav-container-mobile" *ngIf="toggle">
-      <div class="nav-items mx-4 my-auto" data-toggle="tooltip" data-placement="right" title="home">
-        <div routerLinkActive="active" routerLink="projects">
-          <label>Projects</label>
-        </div>
-      </div>
-      <div class="nav-items mx-4 my-auto" data-toggle="tooltip" data-placement="right" title="Repositories">
-        <div routerLinkActive="active" routerLink="repositories">
-          <label>Services</label>
-        </div>
-      </div>
-      <div class="nav-items mx-4 my-auto">
-        <div routerLinkActive="active" routerLink="about" data-toggle="tooltip" data-placement="right" title="Bookmarks">
-          <label>About</label>
-        </div>
-      </div>
-      <div class="nav-items my-auto btn btn__contact shadow-sm">
-        <div routerLinkActive="active" routerLink="bookmarks" data-toggle="tooltip" data-placement="right" title="Bookmarks">
-          <label>Contact</label>
-        </div>
-      </div>
-      <div class="close" (click)="toggleMenu()">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-          <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
-        </svg>
-      </div>
-    </nav>
-
-    <div class="mobile-menu" id="collapseExample" (click)="toggleMenu()">
-      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-        <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z" clip-rule="evenodd" />
+<nav class="navbar navbar-expand-lg navbar-light wrapper">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="../../../assets/images/logo.png" height="128px">
+    </a>
+    <div class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor" height="33px"
+        width="20px">
+        <path fill-rule="evenodd"
+          d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+          clip-rule="evenodd" />
       </svg>
     </div>
-  </div>
-</div> -->
-<!-- <nav class="navbar navbar-expand-lg navbar-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar w/ text</a>
-      <div class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-          <path fill-rule="evenodd"
-            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
-            clip-rule="evenodd" />
-        </svg>
-      </div>
-    <div class="collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
-        </li>
-      </ul>
-      <span class="navbar-text">
-        Navbar text with an inline element
-      </span>
-    </div>
-  </div>
-</nav> -->
-
-<nav class="navbar navbar-expand-lg mt-3">
-  <div class="container-fluid">
-    <a class="navbar-brand" routerLinkActive="active" routerLink="home">Navbar</a>
-    <div class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-          <path fill-rule="evenodd"
-            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
-            clip-rule="evenodd" />
-        </svg>
-      </div>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav me-auto mb-lg-0">
+
       </ul>
       <div class="d-flex">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item mx-3">
-            <a class="nav-link active" aria-current="page" href="#">Projects</a>
+            <a class="nav-link active" href="projects" aria-current="page" href="#">Projects</a>
           </li>
           <li class="nav-item mx-3">
             <a class="nav-link" href="#">Service</a>

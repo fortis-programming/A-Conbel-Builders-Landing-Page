@@ -1,161 +1,43 @@
-// .header {
-//   position: absolute;
-//   z-index: 1;
-//   color: white;
+.navbar {  
+  position: static;
+  padding: 0;
+  margin: -30px auto;
+  font-size: 0.855rem;
+  font-weight: 600;
 
-//   .banner {
-//     cursor: pointer;
-//   }
-
-//   .nav-container {
-//     display: flex;
-//     flex-direction: row;
-
-//     .nav-items {
-//       color: white;
-//       align-items: center;
-
-//       &:active,
-//       .active {
-//         color: $product-color;
-//         // background-color: #0d4b9c21;
-
-//         label {
-//           font-weight: 600;
-//           color: $product-color;
-//         }
-//       }
-
-//       div {
-//         align-items: center;
-//         label {
-//           font-size: 0.855rem;
-//         }
-//       }
-//     }
-//   }
-
-//   .mobile-menu, .close, .nav-container-mobile {
-//     display: none;
-//   }
-
-//   @media screen and (max-width: 800px) {
-//     .close {
-//       display: flex;
-//       position: absolute;
-//       top: 2%;
-//       right: 4%;
-//       z-index: 1;
-//       border-radius: 50%;
-//       cursor: pointer;
-
-//       svg {
-//         color: white;
-//         height: 24px;
-//         width: 24px;
-//       }
-//     }
-
-//     .mobile-menu {
-//       display: flex;
-//       padding: 7px;
-//       border: 1px solid whitesmoke;
-//       border-radius: 5px;
-
-//       &:hover {
-//         background-color: rgba(245, 245, 245, 0.5);  
-//       }
-
-//       svg {
-//         height: 24px;
-//         width: 24px;
-//         color: white;
-//       }
-//     }
-
-//     .nav-container {
-//       display: none;
-//     }
-
-//     .nav-container-mobile {
-//       position: absolute;
-//       display: flex;
-//       flex-direction: column;
-//       width: 90%;
-//       background-color: black;
-//       align-items: flex-start;
-//       justify-content: flex-start;
-//       padding: 8px;
-//       border-radius: 5px;
-//     }
-
-//     .nav-container-mobile  > * {
-//       width: auto;
-//       margin: auto 0;
-//       padding: 8px 0px;
-//     }
-
-//     .btn {
-//       display: none;
-//     }
-//   }
-// }
-
-
-.navbar {
-  z-index: 2;
-  width: 100%;
   .container-fluid {
-    max-width: 90%;
-    z-index: 1;
+    padding: 0;
+  }
 
-    .navbar-collapse {
-      #contact {
-        display: none;
-      }
-    }
+  .navbar-nav {
+    background-color: transparent;
+  }
 
-    .navbar-brand {
-      color: white;
-    }
+  .navbar-brand {
+    margin: auto 0;
+  }
+  #contact {
+    display: none;
+  }
+
+  button {
+    display: block;
+  }
 
   @media screen and (max-width: 999px) {
-      .navbar-collapse {
-        background-color: $black;
-        padding: 12px;
-        border-radius: 5px;
-        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-        
-        button {
-          display: none;
-        }
-
-        #contact {
-          display: block;
-          font-size: 0.855rem;
-        }
-      }
+    button {
+      display: none;
     }
-  }
 
-  .nav-item a {
-    color: white !important;
-    font-size: 0.855rem;
-  }
-}
+    #contact {
+      display: block;
+    }
 
-.navbar-toggler {
-  padding: 7px;
-  border: 1px solid whitesmoke !important;
-  border-radius: 5px;
-
-  &:hover {
-    background-color: rgba(245, 245, 245, 0.5);
-  }
-
-  svg {
-    height: 24px;
-    width: 24px;
-    color: white;
+    .navbar-nav {
+      border-radius: 5px;
+      width: 100%;
+      margin-top: -40px;
+      margin-bottom: 50px !important;
+    }
   }
 }
