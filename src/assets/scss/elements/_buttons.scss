@@ -12,4 +12,10 @@
     color: white !important;
     background-color: $product-color;
   }
+
+  &__ghost {
+    background-color: white;
+    color: $product-color;
+    font-weight: 600;
+  }
 }

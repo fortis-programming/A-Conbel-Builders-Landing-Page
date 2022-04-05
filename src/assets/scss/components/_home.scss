@@ -1,34 +1,27 @@
 .home {
-    margin-top: -5.3%;
-
-    .grid-container {
-        display: grid;
-        grid-template-columns: 50% 50%;
-    }
-
-    @media screen and (max-width: 999px) {
-        .grid-container {
-            display: flex;
-        }
-
-        .grid-container div > * {
-            width: 100%;
-        }
-    }
 }
 
 .features-container {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 @media screen and (max-width: 999px) {
-    .home {
-        margin-top: -10.8%;
-    }
 
     .features-container {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
     }
+
+    .home {
+        .wrapper {
+            max-width: 100%;
+        }
+    }
+
 }
