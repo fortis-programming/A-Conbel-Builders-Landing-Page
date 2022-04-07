@@ -6,19 +6,16 @@ const routes: Routes = [
   {
     path: '',
     redirectTo: 'app',
-    pathMatch: 'full'
+    pathMatch: 'full',
   },
   {
     path: 'app',
-    loadChildren: () => import('./main/main.module').then(m => m.MainModule)
-  }
-]
+    loadChildren: () => import('./main/main.module').then((m) => m.MainModule),
+  },
+];
 
 @NgModule({
   declarations: [],
-  imports: [
-    CommonModule,
-    RouterModule.forRoot(routes)
-  ]
+  imports: [CommonModule, RouterModule.forRoot(routes, { useHash: true })],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
