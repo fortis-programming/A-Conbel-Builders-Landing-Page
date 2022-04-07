@@ -6,6 +6,9 @@ import { MainComponent } from './main.component';
 
 import { route as HomeRoute } from '../home/home-route.module';
 import { route as AboutRoute } from '../about/about-route.module';
+import { route as ProjectsRoute } from '../projects-page/projects-page-route.module';
+import { route as ServiceRoute } from '../service-page/service-page-route.module';
+
 const routes: Routes = [
   {
     path: '',
@@ -17,7 +20,9 @@ const routes: Routes = [
         pathMatch: 'full',
       },
       ...HomeRoute,
-      ...AboutRoute
+      ...AboutRoute,
+      ...ProjectsRoute,
+      ...ServiceRoute,
     ],
   },
 ];

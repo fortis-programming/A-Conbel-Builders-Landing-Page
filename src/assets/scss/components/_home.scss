@@ -1,27 +1,27 @@
 .home {
+    height: auto;
+    font-size: 0.855rem;
 }
 
 .features-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    max-width: 75%;
+    margin: auto;
+    display: grid;
+    align-items: center;;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
 }
 
 @media screen and (max-width: 999px) {
 
     .features-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 15px;
+        grid-template-columns: repeat(2, 1fr);
     }
+}
 
-    .home {
-        .wrapper {
-            max-width: 100%;
-        }
+@media screen and (max-width: 777px) {
+
+    .features-container {
+        grid-template-columns: repeat(1, 1fr);
     }
-
 }

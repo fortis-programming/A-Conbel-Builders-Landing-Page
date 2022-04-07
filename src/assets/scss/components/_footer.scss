@@ -1,0 +1,33 @@
+.footer {
+    background-color: $base-color1;
+    color: white;
+    font-size: 0.855rem;
+    padding: 40px 0px;
+    padding-bottom: -50px;
+
+    a, p {
+        font-size: 0.80rem;
+    }
+
+    .social-section {
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+
+        .icon-container {
+            background-color: #4E4E4E;
+            padding: 8px 9px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            svg {
+                fill: white;
+                height: 18px;
+                width: 18px;
+                margin: auto;
+            }
+        }
+    }
+}
