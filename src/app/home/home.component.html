@@ -1,6 +1,6 @@
 <div class="home">
   <div>
-    <div class="sections__section1 wrapper1 mb-4">
+    <div class="sections__section1 wrapper1">
       <div class="cards__banner w-100 p-4">
         <h1 class="mb-4">Turning your architectural vision into reality.</h1>
         <p class="mb-4"></p>
@@ -9,17 +9,28 @@
         </div>
       </div>
     </div>
+
     <div class="sections__section2">
-      <div class="wrapper">
+      <div>
         <h4>Why choose us?</h4>
         <app-features></app-features>
       </div>
     </div>
-    <div class="sections sections__section3 py-4">
-      <div class="project-container wrapper">
-        <div class="header-container">
-          <h3>Recent Projects</h3>
-        </div>
+
+    <div class="sections sections__section3">
+      <div class="wrapper">
+        <h3>Recent Projects</h3>
+        <p>Some of our company projects around your vacinity, and many more sentences
+          to be included to describe about what you are doing.</p>
+        <app-projects></app-projects>
+        <button class="btn btn__ghost d-flex mx-auto mt-4">Load more</button>
+      </div>
+    </div>
+
+    <div class="sections__section4 py-3">
+      <div class="wrapper">
+        <p>Our team is excited to work with your visions!</p>
+        <button class="btn btn__ghost w-10 shadow-sm">Talk to us now</button>
       </div>
     </div>
   </div>

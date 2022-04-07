@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
@@ -14,6 +15,10 @@ import { FeaturesComponent } from './home/features/features.component';
 import { FeatureItemsComponent } from './home/features/feature-items/feature-items.component';
 
 import { firebaseConfig } from 'src/environments/environment';
+import { ProjectsComponent } from './projects/projects.component';
+import { ProjectItemComponent } from './projects/project-item/project-item.component';
+import { ProjectsPageComponent } from './projects-page/projects-page.component';
+import { ServicePageComponent } from './service-page/service-page.component';
 
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
@@ -24,7 +29,11 @@ const analytics = getAnalytics(app);
     HomeComponent,
     AboutComponent,
     FeaturesComponent,
-    FeatureItemsComponent
+    FeatureItemsComponent,
+    ProjectsComponent,
+    ProjectItemComponent,
+    ProjectsPageComponent,
+    ServicePageComponent,
   ],
   imports: [
     AppRoutingModule,
@@ -32,7 +41,11 @@ const analytics = getAnalytics(app);
     RouterModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [
+    {
+      provide: LocationStrategy, useClass: HashLocationStrategy
+    }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

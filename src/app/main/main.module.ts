@@ -6,10 +6,11 @@ import { MainComponent } from './main.component';
 import { MainRoutingModule } from './main-routing.module';
 import { RouterModule } from '@angular/router';
 import { HeaderModule } from './header/header.module';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
-  declarations: [MainComponent],
+  declarations: [MainComponent, FooterComponent],
   imports: [
     CommonModule,
     HeaderModule,
