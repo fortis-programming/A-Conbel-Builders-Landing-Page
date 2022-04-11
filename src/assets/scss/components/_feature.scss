@@ -1,0 +1,30 @@
+.feature {
+   display: flex;
+   flex-direction: column;
+   justify-content:  center;
+   align-items: center;
+   gap: 20px;
+
+   h2 {
+      color: $black;
+      font-weight: 600;
+   }
+
+   .features-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+   }
+
+   @media screen and (max-width: 800px) {
+      .features-container {
+         grid-template-columns: repeat(2, 1fr);
+      }
+   }
+
+   @media screen and (max-width: 520px) {
+      .features-container {
+         grid-template-columns: repeat(1, 1fr);
+      }
+   }
+}
