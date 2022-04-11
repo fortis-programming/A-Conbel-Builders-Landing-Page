@@ -1,131 +1,60 @@
 .cards {
-  &__banner {
-    color: white;
-    line-height: 30px;
-    margin: auto;
+
+  &__feature-card {
+    padding: 15px;
+    max-width: 250px;
+    border: 1px solid $base-color;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    h1 {
-      max-width: 700px;
-      text-align: center;
-    }
-  }
-
-  &__feature-item {
-    display: flex;
-    flex-direction: column;
-    border: 1px solid whitesmoke;
-    width: 250px;
-    border-radius: 5px;
-    margin: auto;
-    background-color: white;
-
-    strong,
-    p {
-      color: $black;
-      text-align: center;
-    }
-
-    p {
-      font-size: .855rem;
-    }
+    text-align: center;
 
     img {
+      height: 100px;
+      width: 100px;
+      margin: auto;
+    }
+  }
+
+  &__project-card {
+    width: 299px;
+    overflow: hidden;    
+    margin: auto;
+
+    img {
+      height: 280px;
+    }
+
+    h5 {
+      color: white;
+    }
+
+    .card-title {
+      display: none;
+      margin: auto;
+    }
+
+    .card-img-overlay {
       display: flex;
-      align-self: center;
-      margin: auto 0;
-      height: 90px;
-      width: 90px;
-    }
-  }
-}
-
-.review {
-  background-color: $product-color;
-  margin: 0px;
-}
-
-.sections {
-  height: 100vh;
-
-  &__section1 {
-    height: 88vh;
-    max-width: 100%;
-    background-image: url("../../images/background-min.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-  }
-
-  &__section2 {
-    padding-top: 28px;
-    padding-bottom: 28px;
-    background-color: $base-color;
-
-    h4 {
-      padding: 8px 0px;
-      text-align: center;
-      font-weight: 600;
-    }
-  }
-
-  &__section3 {
-    padding: 20px 0px;
-    padding-bottom: 40px;
-    height: auto;
-    background-color: $offwhite;
-
-    h3 {
-      padding: 8px 0px;
-      font-weight: 600;
+      align-items: center;
+      justify-content: center;
     }
 
-    p {
-      max-width: 70%;
-    }
-  }
-
-  &__section4 {
-    background: linear-gradient(to bottom right, $product-color 0%, #047025 100%);
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    .wrapper {
+    &:hover .card-title {
       display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-
-      p {
-        margin: auto 0;
-      }
-    }
-  }
-
-  @media screen and (max-width: 580px) {
-    &__section4 {
-      .wrapper {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-      }
-    }
-  }
-
-  @media screen and (max-width: 999px) {
-    &__section1 {
-      border-radius: 0;
+      animation-name: example;
+      animation-duration: 0.5s;
     }
 
-    &__section3 {
-      p {
-        max-width: 100%;
+    @keyframes example {
+      from {
+        opacity: 0;
       }
+
+      to {
+        opacity: 1;
+      }
+
+
     }
   }
 }

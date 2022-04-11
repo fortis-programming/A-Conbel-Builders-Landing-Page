@@ -1,27 +1,34 @@
 .home {
-    height: auto;
-    font-size: 0.855rem;
-}
+  &__hero {
+    background-image: url('../../images/background-min.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 88vh;
+    display: flex;
+    align-items: center;
 
-.features-container {
-    max-width: 75%;
-    margin: auto;
-    display: grid;
-    align-items: center;;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 1rem;
-}
+    .wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
 
-@media screen and (max-width: 999px) {
+      h1 {
+        color: white;
+        max-width: 600px;
+        text-align: center;
+      }
 
-    .features-container {
-        grid-template-columns: repeat(2, 1fr);
+      button {
+        width: 150px;
+      }
     }
-}
+  }
 
-@media screen and (max-width: 777px) {
+  &__projects {
+    background-color: $offwhite;
+  }
 
-    .features-container {
-        grid-template-columns: repeat(1, 1fr);
-    }
+  &__banner {
+    background-color: $product-color;
+  }
 }
