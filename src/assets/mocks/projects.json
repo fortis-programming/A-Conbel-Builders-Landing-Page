@@ -1,0 +1,16 @@
+{
+  "data": [
+    {
+      "title": "Project 1",
+      "description": "Sample service description and some short discussion on what your company offers.",
+      "image": "../../../../assets/images/background-min.jpg",
+      "location": "somewhere"
+    },
+    {
+      "title": "Project 2",
+      "description": "Sample Description",
+      "image": "../../../../assets/images/background-min.jpg",
+      "location": "somewhere"
+    }
+  ]
+}

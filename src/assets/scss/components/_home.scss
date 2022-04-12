@@ -26,9 +26,57 @@
 
   &__projects {
     background-color: $offwhite;
+
+    .icon {
+      svg {
+        height: 20px;
+        margin: auto 5px;
+        fill: $product-color;
+        margin-top: -5px;
+      }
+    }
+  
+    .browser-btn {
+      cursor: pointer;
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+  
+      &:hover {      
+        text-decoration: underline;
+      }
+    }
   }
 
   &__banner {
-    background-color: $product-color;
+    background: rgb(7, 94, 19);
+    background: linear-gradient(90deg, rgba(7, 94, 19, 1) 0%, rgba(61, 147, 104, 1) 35%, rgba(8, 192, 91, 1) 100%);
+
+    .wrapper {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    button {
+      width: 150px;
+      margin: auto;
+      margin-right: 0;
+    }
+
+    div {
+      display: flex;
+      flex-direction: column;
+    }
+
+    strong,
+    p {
+      color: white;
+      margin: auto 0;
+    }
+
+    strong {
+      font-size: larger;
+      margin-bottom: 10px;
+    }
   }
 }
