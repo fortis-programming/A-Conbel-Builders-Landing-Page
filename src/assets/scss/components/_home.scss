@@ -35,14 +35,14 @@
         margin-top: -5px;
       }
     }
-  
+
     .browser-btn {
       cursor: pointer;
       width: 100%;
       display: flex;
       justify-content: flex-end;
-  
-      &:hover {      
+
+      &:hover {
         text-decoration: underline;
       }
     }
@@ -50,7 +50,7 @@
 
   &__banner {
     background: rgb(7, 94, 19);
-    background: linear-gradient(90deg, rgba(7, 94, 19, 1) 0%, rgba(61, 147, 104, 1) 35%, rgba(8, 192, 91, 1) 100%);
+    background: linear-gradient(90deg, rgba(7, 94, 19, 1) 0%, rgba(61, 147, 104, 1) 77%, rgba(9, 171, 82, 1) 100%);
 
     .wrapper {
       display: grid;
@@ -61,6 +61,18 @@
       width: 150px;
       margin: auto;
       margin-right: 0;
+    }
+
+    @media screen and (max-width: 999px) {
+      .wrapper {
+        grid-template-columns: repeat(1, 1fr);
+      }
+
+      button {
+        margin-left: 0;
+        margin-top: 10px;
+        width: 100%;
+      }
     }
 
     div {

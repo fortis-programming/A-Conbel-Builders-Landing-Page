@@ -1,0 +1,16 @@
+.project-preview {
+  .carousel {
+    .carousel-indicators > * {
+       border-radius: 50%;
+       width: 8px;
+       height: 8px;
+       margin: auto 5px;
+    }
+
+    .carousel-item {
+      img {
+        height: 70vh;
+      }
+    }
+  }
+}
