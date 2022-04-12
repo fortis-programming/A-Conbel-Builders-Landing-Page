@@ -6,7 +6,8 @@ import { MainComponent } from './main.component';
 
 import { route as HomeRoute } from '../home/home-route.module';
 import { route as AboutRoute } from '../about/about-route.module';
-import { route as ProjectsRoute } from '../projects/projects-route.module';
+import { route as ProjectsRoute } from '../projects-page/projects-page-route.module';
+import { route as ContactUsRoute } from '../contact-us/contact-us-route.module';
 
 const routes: Routes = [
   {
@@ -19,6 +20,7 @@ const routes: Routes = [
         pathMatch: 'full',
       },
       ...AboutRoute,
+      ...ContactUsRoute,
       ...HomeRoute,
       ...ProjectsRoute,
     ],

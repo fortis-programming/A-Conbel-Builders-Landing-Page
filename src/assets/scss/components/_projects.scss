@@ -26,14 +26,20 @@
     }
   }
 
-  .browser-btn {
-    cursor: pointer;
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
 
-    &:hover {      
-      text-decoration: underline;
+
+  .browse-container {
+    display: flex;
+    justify-items: flex-end;
+
+    .browser-btn {
+      display: flex;
+      width: auto;
+      margin: auto;
+      margin-right: 0;
+      &:hover {      
+        text-decoration: underline;
+      } 
     }
   }
 

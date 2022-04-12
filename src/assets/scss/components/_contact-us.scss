@@ -1,0 +1,65 @@
+.contact-us {
+  .header {
+    background-image: url('../../images/background-min.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    display: flex;
+    align-items: flex-end;
+
+    h2 {
+      color: #ffffff;
+      margin: 20px 0;
+    }
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+
+    .title {
+      h2 {
+        font-weight: 600;
+      }
+
+      p {
+        max-width: 470px;
+      }
+    }
+
+    .form-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+
+      #floatingInput,
+      #floatingMessage,
+      button {
+        max-width: 400px;
+      }
+
+      .right-banner {
+        border-left: 1px solid $base-color;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        svg {
+          height: 2.5rem;
+          width: 2.8rem;
+          color: $black;
+        }
+
+        p {
+          width: 40ch;
+          font-size: 1.1rem;
+        }
+
+        div {
+          gap: 10px;
+          width: 100%;
+        }
+      }
+    }
+  }
+}

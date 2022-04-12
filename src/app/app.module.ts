@@ -17,6 +17,8 @@ import { FeatureItemsComponent } from './home/features/feature-items/feature-ite
 import { firebaseConfig } from 'src/environments/environment';
 import { ProjectsComponent } from './projects/projects.component';
 import { ProjectItemComponent } from './projects/project-item/project-item.component';
+import { ProjectsPageComponent } from './projects-page/projects-page.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
@@ -29,7 +31,9 @@ const analytics = getAnalytics(app);
     FeaturesComponent,
     FeatureItemsComponent,
     ProjectsComponent,
-    ProjectItemComponent
+    ProjectItemComponent,
+    ProjectsPageComponent,
+    ContactUsComponent
   ],
   imports: [
     AppRoutingModule,
