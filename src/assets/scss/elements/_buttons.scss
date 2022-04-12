@@ -7,4 +7,11 @@
     color: $product-color;
     font-weight: 600;
   }
+
+  &__primary {
+    padding: 15px;
+    width: 100%;
+    background-color: $product-color;
+    color: white;
+  }
 }
