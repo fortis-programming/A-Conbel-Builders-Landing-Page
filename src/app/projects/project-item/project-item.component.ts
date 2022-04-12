@@ -8,6 +8,7 @@ import { ProjectsModel } from 'src/app/_shared/models/projects.model';
 })
 export class ProjectItemComponent implements OnInit {
   @Input() project: ProjectsModel = {
+    id: '',
     title: '',
     description: '',
     image: '',

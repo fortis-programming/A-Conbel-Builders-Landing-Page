@@ -1,4 +1,4 @@
-.navbar {  
+.navbar {
   position: sticky;
   top: 0;
   font-size: 0.855rem;
@@ -15,14 +15,23 @@
     background-color: transparent;
   }
 
+  .nav-item {
+
+    &:active,
+    .active {
+      color: $product-color !important;
+    }
+  }
+
   .navbar-brand {
     margin: auto 0;
-    
+
     img {
       margin: -38px 0;
       height: 128px;
     }
   }
+
   #contact {
     display: none;
   }

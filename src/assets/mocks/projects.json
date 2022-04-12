@@ -1,13 +1,29 @@
 {
   "data": [
     {
+      "id": "1",
       "title": "Project 1",
       "description": "Sample service description and some short discussion on what your company offers.",
       "image": "../../../../assets/images/background-min.jpg",
       "location": "somewhere"
     },
     {
+      "id": "2",
       "title": "Project 2",
+      "description": "Sample Description",
+      "image": "../../../../assets/images/background-min.jpg",
+      "location": "somewhere"
+    },
+    {
+      "id": "3",
+      "title": "Project 3",
+      "description": "Sample Description",
+      "image": "../../../../assets/images/background-min.jpg",
+      "location": "somewhere"
+    },
+    {
+      "id": "4",
+      "title": "Project 4",
       "description": "Sample Description",
       "image": "../../../../assets/images/background-min.jpg",
       "location": "somewhere"
