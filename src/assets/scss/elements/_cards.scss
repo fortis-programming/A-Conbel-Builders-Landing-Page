@@ -17,7 +17,7 @@
 
   &__project-card {
     width: 299px;
-    overflow: hidden;    
+    overflow: hidden;
     margin: auto;
 
     img {
@@ -41,11 +41,11 @@
 
     &:hover .card-title {
       display: flex;
-      animation-name: example;
+      animation-name: animate;
       animation-duration: 0.5s;
     }
 
-    @keyframes example {
+    @keyframes animate {
       from {
         opacity: 0;
       }
@@ -53,8 +53,6 @@
       to {
         opacity: 1;
       }
-
-
     }
   }
 }

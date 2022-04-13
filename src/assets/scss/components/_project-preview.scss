@@ -1,15 +1,61 @@
 .project-preview {
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+
+    svg,
+    a,
+    p {
+      margin: auto 0;
+      font-weight: 600;
+    }
+
+    a {
+      cursor: pointer;
+      text-decoration: underline;
+      color: $black;
+    }
+
+    svg {
+      margin-top: -2px;
+      height: 24px;
+    }
+  }
+
   .carousel {
-    .carousel-indicators > * {
-       border-radius: 50%;
-       width: 8px;
-       height: 8px;
-       margin: auto 5px;
+    .carousel-indicators>* {
+      border-radius: 50%;
+      width: 8px;
+      height: 8px;
+      margin: auto 5px;
     }
 
     .carousel-item {
       img {
         height: 70vh;
+      }
+    }
+  }
+
+  .project-details-container {
+    display: grid;
+    grid-template-columns: 80% 20%;
+
+    .description {
+      margin-right: 30px;
+    }
+
+    .bordered {
+      border-left: 1px solid $base-color;
+      padding-left: 20px;
+
+      div {
+        gap: 5px;
+
+        svg {
+          height: 18px;
+        }
       }
     }
   }
