@@ -34,6 +34,7 @@ export class ProjectPreviewComponent implements OnInit {
     description: '',
     image: '',
     location: '',
+    projectDuration: ''
   };
   getProjectDetails(): void {
     this.projectDetails = this.projectList.filter(

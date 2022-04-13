@@ -13,6 +13,7 @@ export class ProjectItemComponent implements OnInit {
     description: '',
     image: '',
     location: '',
+    projectDuration: ''
   };
 
   constructor() {}

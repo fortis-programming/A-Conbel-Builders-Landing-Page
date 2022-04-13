@@ -19,6 +19,8 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ProjectItemComponent } from './projects/project-item/project-item.component';
 import { ProjectsPageComponent } from './projects-page/projects-page.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { ServicesPageComponent } from './services-page/services-page.component';
+import { ProjectPreviewComponent } from './project-preview/project-preview.component';
 
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
@@ -33,7 +35,9 @@ const analytics = getAnalytics(app);
     ProjectsComponent,
     ProjectItemComponent,
     ProjectsPageComponent,
-    ContactUsComponent
+    ProjectPreviewComponent,
+    ContactUsComponent,
+    ServicesPageComponent
   ],
   imports: [
     AppRoutingModule,

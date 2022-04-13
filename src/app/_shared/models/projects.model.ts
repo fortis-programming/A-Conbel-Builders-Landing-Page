@@ -4,4 +4,5 @@ export interface ProjectsModel {
    description: string;
    image: string;
    location: string;
+   projectDuration: string;
 }
