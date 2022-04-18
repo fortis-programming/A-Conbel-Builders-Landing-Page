@@ -41,6 +41,16 @@
         text-decoration: underline;
       } 
     }
+
+    @media screen and (max-width: 999px) {
+      .browser-btn {
+
+        .icon {
+          display: none;
+        }
+        margin: auto;
+      }
+    }
   }
 
   h2 {

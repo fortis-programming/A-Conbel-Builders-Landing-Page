@@ -12,4 +12,50 @@
       margin: 20px 0;
     }
   }
+
+  main {
+    display: flex;
+    flex-direction: column;
+
+    section {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+    }
+    div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    h4 {
+      font-weight: 600;
+    }
+
+    h4, img, p {
+      animation-name: fadeIn;
+      animation-duration: 1s;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.8rem;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+  
+      to {
+        opacity: 1;
+      }
+    }
+
+    @media screen and (max-width: 999px) {
+      section {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+  }
 }
