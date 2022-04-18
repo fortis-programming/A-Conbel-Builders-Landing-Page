@@ -62,5 +62,29 @@
         }
       }
     }
+
+    @media screen and (max-width: 999px) {
+      .form-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        #floatingInput,
+        #floatingMessage,
+        button {
+          max-width: 100vw;
+        }
+
+        div {
+          width: 100%;
+        }
+
+        .right-banner {
+          border: none;
+          margin-top: 20px;
+        }
+      }
+    }
   }
 }

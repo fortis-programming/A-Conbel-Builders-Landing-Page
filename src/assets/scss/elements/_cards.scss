@@ -45,6 +45,11 @@
       animation-duration: 0.5s;
     }
 
+    &:hover {
+      transition: transform .2s ease;
+      transform: scale(1.01);
+    }
+
     @keyframes animate {
       from {
         opacity: 0;
