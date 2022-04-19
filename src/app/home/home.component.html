@@ -1,19 +1,45 @@
 <div class="home">
   <div class="home__hero">
     <div class="wrapper d-flex flex-column">
-      <h1>Turning your architectural vision
+      <h1 data-aos="fade-up">Turning your architectural vision
         into reality.</h1>
-      <button class="buttons buttons__hero shadow-sm mt-4 rounded" routerLink="../contact-us">
+      <button class="buttons buttons__hero shadow-sm mt-4 rounded" data-aos="fade-up" data-aos-delay="150"
+        routerLink="../contact-us">
         Contact us
       </button>
     </div>
   </div>
   <div class="home__feature py-3">
-    <app-features></app-features>
-  </div>
-  <div class="home__projects py-3">
     <div class="wrapper">
-      <app-projects></app-projects>
+      <app-features></app-features>
+    </div>
+  </div>
+  <div class="home__projects">
+    <div class="wrapper py-5" data-aos="fade-up">
+      <h3 class="mb-2">Our Services</h3>
+      <p>
+        Services that our company can offer.
+      </p>
+      <div class="services-container">
+        <app-service-item *ngFor="let service of servicesList" [service]="service" data-aos="zoom-in"
+          data-aos-delay="200"></app-service-item>
+      </div>
+    </div>
+  </div>
+  <div class="home__another py-5">
+    <div class="wrapper">
+      <div class="d-flex flex-column">
+        <h3 class="mb-2" data-aos="zoom-in">See what our constumers are saying</h3>
+        <a data-aos="zoom-in">See more</a>
+      </div>
+      <div class="social-proof">
+        <div class="message p-4 rounded" data-aos="fade-left">
+          <p>"Your reliable source to construct residential and commercial properties."</p>
+          <strong>
+            - Juan Dela Cruz
+          </strong>
+        </div>
+      </div>
     </div>
   </div>
   <div class="home__banner py-5">

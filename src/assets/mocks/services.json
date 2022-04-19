@@ -1,0 +1,33 @@
+{
+   "data": [
+      {
+         "id": "1",
+         "title": "INTERIOR FIT OUT",
+         "description": "sdlkasldkasldk"
+      },
+      {
+         "id": "2",
+         "title": "CIVIL WORKS"
+      },
+      {
+         "id": "3",
+         "title": "ELECTRICAL WORKS",
+         "description": "sdlkasldkasldk"
+      },
+      {
+         "id": "4",
+         "title": "PLUMBING WORKS",
+         "description": "sdlkasldkasldk"
+      },
+      {
+         "id": "5",
+         "title": "MECHANICAL WORKS",
+         "description": "sdlkasldkasldk"
+      },
+      {
+         "id": "6",
+         "title": "RETROFITTIG WORKS",
+         "description": "sdlkasldkasldk"
+      }
+   ]
+}

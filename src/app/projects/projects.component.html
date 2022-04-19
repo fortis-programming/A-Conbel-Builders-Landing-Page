@@ -1,9 +1,9 @@
-<div class="projects py-5">
-  <h2 class="mb-4">Recent projects</h2>
+<div class="projects">
+  <!-- <h2 class="mb-4">Recent projects</h2>
   <p>
     Some of our company projects can be seen around
     your vicinity.
-  </p>
+  </p> -->
   <div class="browse-container py-3">
     <div class="browser-btn" routerLink="../projects">
       <strong>Browse all project</strong>
@@ -16,7 +16,7 @@
       </span>
     </div>
   </div>
-  <div class="project-container">
+  <div class="project-container" data-aos="fade-right">
     <app-project-item *ngFor="let project of projects" [project]="project"></app-project-item>
   </div>
 </div>

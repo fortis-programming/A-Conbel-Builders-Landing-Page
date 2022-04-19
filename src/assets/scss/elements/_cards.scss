@@ -3,15 +3,16 @@
   &__feature-card {
     padding: 15px;
     max-width: 250px;
-    border: 1px solid $base-color;
     display: flex;
     flex-direction: column;
     text-align: center;
 
     img {
-      height: 100px;
+      height: auto;
       width: 100px;
       margin: auto;
+      
+      filter: grayscale(100%);
     }
   }
 
@@ -29,17 +30,18 @@
     }
 
     .card-title {
-      display: none;
       margin: auto;
+      cursor: default;
     }
 
     .card-img-overlay {
-      display: flex;
+      display: none;
+      background-color:rgba(0, 0, 0, 0.459);
       align-items: center;
       justify-content: center;
     }
 
-    &:hover .card-title {
+    &:hover .card-img-overlay {
       display: flex;
       animation-name: animate;
       animation-duration: 0.5s;
@@ -59,5 +61,19 @@
         opacity: 1;
       }
     }
+  }
+
+  &__services {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    border: 1px solid $base-color;
+
+    strong {
+      font-size: 0.9rem;
+      font-weight: 500;
+      cursor: default;
+    }
+
   }
 }

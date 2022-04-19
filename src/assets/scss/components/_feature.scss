@@ -1,19 +1,21 @@
 .feature {
    display: flex;
    flex-direction: column;
-   justify-content:  center;
+   gap: 0px;
    align-items: center;
-   gap: 20px;
-
-   h2 {
+   
+   h4 {
       color: $black;
-      font-weight: 600;
+      line-height: 1.33;
    }
 
    .features-container {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 20px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+      align-items: center;
    }
 
    @media screen and (max-width: 800px) {
