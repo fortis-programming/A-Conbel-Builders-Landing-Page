@@ -1,16 +1,15 @@
 {
-   "data": [
-      {
-         "author": "Jose Rizal",
-         "message": "One only dies once, and if one does not die well, a good opportunity is lost and will not present itself again."
-      },
-      {
-         "author": "Elon Musk",
-         "message": "When something is important enough, you do it even if the odds are not in your favor."
-      },
-      {
-         "author": "Juan Dela Cruz",
-         "message": "Your reliable source to construct residential and commercial properties."
-      }
-   ]
+  "data": [{
+      "author": "Jose Rizal",
+      "message": "One only dies once, and if one does not die well, a good opportunity is lost and will not present itself again."
+    },
+    {
+      "author": "Elon Musk",
+      "message": "When something is important enough, you do it even if the odds are not in your favor."
+    },
+    {
+      "author": "Juan Dela Cruz",
+      "message": "Your reliable source to construct residential and commercial properties."
+    }
+  ]
 }

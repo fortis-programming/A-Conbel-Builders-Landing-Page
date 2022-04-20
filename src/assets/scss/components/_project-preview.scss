@@ -40,22 +40,46 @@
 
   .project-details-container {
     display: grid;
-    grid-template-columns: 80% 20%;
+    grid-template-columns: 70% 30%;
 
     .description {
       margin-right: 30px;
+    }
+
+    .service-provided {
+      display: flex;
+      flex-direction: row;
+      gap: 0.5rem;
+      flex-wrap: wrap;
     }
 
     .bordered {
       border-left: 1px solid $base-color;
       padding-left: 20px;
 
-      div {
+      .project-details {
         gap: 5px;
+        display: flex;
+        flex-direction: column;
 
         svg {
-          height: 18px;
+          height: 30px;
+          display: none;
         }
+      }
+    }
+  }
+
+  @media screen and (max-width: 999px) {
+    .project-details-container {
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+
+      .bordered {
+        border: none;
+        border-top: 1px solid $base-color;
+        padding-top: 30px;
       }
     }
   }

@@ -8,14 +8,8 @@ import { RouterModule } from '@angular/router';
 import { HeaderModule } from './header/header.module';
 import { FooterComponent } from './footer/footer.component';
 
-
 @NgModule({
   declarations: [MainComponent, FooterComponent],
-  imports: [
-    CommonModule,
-    HeaderModule,
-    MainRoutingModule,
-    RouterModule
-  ]
+  imports: [CommonModule, HeaderModule, MainRoutingModule, RouterModule],
 })
-export class MainModule { }
+export class MainModule {}

@@ -1,5 +1,6 @@
 .about {
   overflow-x: hidden;
+
   .header {
     background-image: url('../../images/background-min.jpg');
     background-repeat: no-repeat;
@@ -24,11 +25,11 @@
       grid-template-columns: repeat(2, 1fr);
       gap: 2rem;
     }
-    
+
     .history {
       height: 100vh;
     }
-    
+
     div {
       display: flex;
       flex-direction: column;

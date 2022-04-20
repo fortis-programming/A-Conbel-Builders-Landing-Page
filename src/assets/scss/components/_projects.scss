@@ -36,9 +36,10 @@
       width: auto;
       margin: auto;
       margin-right: 0;
-      &:hover {      
+
+      &:hover {
         text-decoration: underline;
-      } 
+      }
     }
 
     @media screen and (max-width: 999px) {
@@ -47,6 +48,7 @@
         .icon {
           display: none;
         }
+
         margin: auto;
       }
     }

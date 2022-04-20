@@ -5,15 +5,14 @@ import { BaseResponse } from '../_shared/models/baseResponse.model';
 import { ServiceModel } from '../_shared/models/service.model';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class ServicesService {
-
-  constructor(
-    private http: HttpClient
-  ) { }
+  constructor(private http: HttpClient) {}
 
   getCompanyServices(): Observable<BaseResponse<ServiceModel[]>> {
-    return this.http.get<BaseResponse<ServiceModel[]>>('../../assets/mocks/services.json');
+    return this.http.get<BaseResponse<ServiceModel[]>>(
+      '../../assets/mocks/services.json'
+    );
   }
 }
