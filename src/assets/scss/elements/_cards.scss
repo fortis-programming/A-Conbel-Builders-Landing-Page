@@ -11,7 +11,7 @@
       height: auto;
       width: 100px;
       margin: auto;
-      
+
       filter: grayscale(100%);
     }
   }
@@ -36,7 +36,7 @@
 
     .card-img-overlay {
       display: none;
-      background-color:rgba(0, 0, 0, 0.459);
+      background-color: rgba(0, 0, 0, 0.459);
       align-items: center;
       justify-content: center;
     }
@@ -68,7 +68,7 @@
     flex-direction: column;
     padding: 12px;
     border: 1px solid $base-color;
-    
+
     img {
       display: none;
     }
@@ -81,10 +81,78 @@
 
     &:hover {
       background-color: $product-color;
-      
+
       strong {
         color: white;
       }
     }
   }
+}
+
+.banner {
+  background: rgb(7, 94, 19);
+  background: linear-gradient(90deg, rgba(7, 94, 19, 1) 0%, rgba(61, 147, 104, 1) 77%, rgba(9, 171, 82, 1) 100%);
+  z-index: 1;
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  button {
+    width: 150px;
+    margin: auto;
+    margin-right: 0;
+  }
+
+  @media screen and (max-width: 999px) {
+    .wrapper {
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    button {
+      margin-left: 0;
+      margin-top: 10px;
+      width: 100%;
+    }
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  strong,
+  p {
+    color: white;
+    margin: auto 0;
+  }
+
+  strong {
+    font-size: larger;
+    margin-bottom: 10px;
+  }
+}
+
+.project-banner {
+  background: rgb(34, 193, 195);
+  background: linear-gradient(0deg, rgba(34, 193, 195, 0.05) 0%, rgba(21, 177, 229, 0.02) 100%);
+  height: 300px;
+  display: flex;
+  align-items: center;
+  
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+
+    h4 {
+      font-weight: 600;
+    }
+  }
+
+  // background: rgb(7, 94, 19);
+  // background: linear-gradient(90deg, rgba(7, 94, 19, 1) 0%, rgba(61, 147, 104, 1) 77%, rgba(9, 171, 82, 1) 100%);
+  // z-index: 1;
 }

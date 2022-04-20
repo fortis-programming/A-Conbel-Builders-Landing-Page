@@ -5,7 +5,7 @@
   font-weight: 600;
   background-color: white;
   border-bottom: 1px solid $base-color;
-  z-index: 2;
+  z-index: 3;
 
   .container-fluid {
     padding: 0;
@@ -36,6 +36,14 @@
     display: none;
   }
 
+  #desktop {
+    display: flex !important;
+  }
+
+  #mobile {
+    display: none !important;
+  }
+
   button {
     display: block;
   }
@@ -43,6 +51,14 @@
   @media screen and (max-width: 999px) {
     button {
       display: none;
+    }
+
+    #desktop {
+      display: none !important;
+    }
+
+    #mobile {
+      display: flex !important;
     }
 
     #contact {

@@ -24,6 +24,8 @@ import { ProjectPreviewComponent } from './project-preview/project-preview.compo
 import { ServiceItemComponent } from './services-page/service-item/service-item.component';
 import { SocialProofComponent } from './social-proof/social-proof.component';
 import { AccordionItemComponent } from './services-page/accordion-item/accordion-item.component';
+import { BannerComponent } from './banner/banner.component';
+import { ProjectBannerComponent } from './project-banner/project-banner.component';
 
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
@@ -43,7 +45,9 @@ const analytics = getAnalytics(app);
     ServicesPageComponent,
     ServiceItemComponent,
     SocialProofComponent,
-    AccordionItemComponent
+    AccordionItemComponent,
+    BannerComponent,
+    ProjectBannerComponent
   ],
   imports: [
     AppRoutingModule,
