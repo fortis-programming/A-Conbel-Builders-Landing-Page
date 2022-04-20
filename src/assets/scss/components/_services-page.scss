@@ -1,0 +1,66 @@
+.services-page {
+   .header {
+      background-image: url('../../images/background-min.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 150px;
+      display: flex;
+      align-items: flex-end;
+  
+      h2 {
+        color: #ffffff;
+        margin: 20px 0;
+      }
+
+      .wrapper {
+         
+      }
+    }
+
+   .wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      gap: 2rem;
+   }
+
+   // @media screen and (max-width: 999px) {
+   //    .wrapper {
+   //       display: flex;
+   //       flex-direction: column;
+         
+   //    }
+   // }
+
+
+   // .cards {
+   //    &__services {
+   //       margin: auto;
+   //       padding: 0;
+   //       overflow: hidden;
+   //       width: 350px;
+   //       height: 320px;
+   //       display: flex;
+   //       justify-content: center;
+   //       align-items: center;
+         
+   //       img {
+   //          display: flex;
+   //          position: static;
+   //          height: 100%;
+   //       }
+
+   //       strong {
+   //          position: absolute;
+   //       }
+
+   //       &:hover {
+   //          background-color: transparent;
+
+   //          strong {
+   //             color: $black;
+   //          }
+   //       }
+   //    }
+   // }
+}

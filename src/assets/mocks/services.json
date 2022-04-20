@@ -1,0 +1,40 @@
+{
+   "data": [
+      {
+         "id": "1",
+         "title": "INTERIOR FIT OUT",
+         "description": "Can provide service of installation of ceilings, floors, furnishings, and partitions of a building, as well as the installation of all required building services.",
+         "img": "https://cubicinteriorsco.com/wp-content/uploads/2021/05/D3-Business-Center-Fit-Out-Dubai.jpg"
+      },
+      {
+         "id": "2",
+         "title": "CIVIL WORKS",
+         "description": "Building your dream house shouldn’t be a nightmare! A-con can provide the service for the creation of infrastructure involving anything to do and what you need.",
+         "img": "http://www.oscorpltd.com/wp-content/uploads/2015/02/p2014095153construction_travaux.jpg"
+      },
+      {
+         "id": "3",
+         "title": "ELECTRICAL WORKS",
+         "description": "Good quality wire saves you from fire. A-Con having best solutions for your electrial needs.",
+         "img": "https://cubicinteriorsco.com/wp-content/uploads/2021/05/D3-Business-Center-Fit-Out-Dubai.jpg"
+      },
+      {
+         "id": "4",
+         "title": "PLUMBING WORKS",
+         "description": "Good quality wire saves you from fire. A-Con having best solutions for your electrial needs.",
+         "img": "https://cubicinteriorsco.com/wp-content/uploads/2021/05/D3-Business-Center-Fit-Out-Dubai.jpg"
+      },
+      {
+         "id": "5",
+         "title": "MECHANICAL WORKS",
+         "description": "Good quality wire saves you from fire. A-Con having best solutions for your electrial needs.",
+         "img": "https://cubicinteriorsco.com/wp-content/uploads/2021/05/D3-Business-Center-Fit-Out-Dubai.jpg"
+      },
+      {
+         "id": "6",
+         "title": "RETROFITTING WORKS",
+         "description": "Good quality wire saves you from fire. A-Con having best solutions for your electrial needs.",
+         "img": "https://cubicinteriorsco.com/wp-content/uploads/2021/05/D3-Business-Center-Fit-Out-Dubai.jpg"
+      }
+   ]
+}

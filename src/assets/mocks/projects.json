@@ -4,7 +4,7 @@
       "id": "1",
       "title": "Project 1",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum lacus eget diam eleifend ultrices. Proin nec commodo neque, quis mollis est. Quisque dolor diam, pretium sed elit at, convallis convallis augue. Mauris quis nunc vel dolor fringilla faucibus. Etiam blandit leo lectus, eu condimentum quam aliquet sit amet. Vivamus ac facilisis felis, a commodo justo. Pellentesque aliquam ante maximus mi mattis faucibus. Nunc elementum leo et neque venenatis, vel pellentesque tellus maximus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc sed suscipit nunc. Mauris a augue massa.",
-      "image": "../../../../assets/images/background-min.jpg",
+      "image": "../../../../assets/images/metro_logo-min.jpg",
       "location": "somewhere",
       "projectDuration": "20 months"
     },
@@ -12,23 +12,7 @@
       "id": "2",
       "title": "Project 2",
       "description": "Sample Description",
-      "image": "../../../../assets/images/background-min.jpg",
-      "location": "somewhere",
-      "projectDuration": "20 months"
-    },
-    {
-      "id": "3",
-      "title": "Project 3",
-      "description": "Sample Description",
-      "image": "../../../../assets/images/background-min.jpg",
-      "location": "somewhere",
-      "projectDuration": "20 months"
-    },
-    {
-      "id": "4",
-      "title": "Project 4",
-      "description": "Sample Description",
-      "image": "../../../../assets/images/background-min.jpg",
+      "image": "../../../../assets/images/royal.png",
       "location": "somewhere",
       "projectDuration": "20 months"
     }

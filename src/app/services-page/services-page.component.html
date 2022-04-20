@@ -1,1 +1,15 @@
-<p>services-page works!</p>
+<div class="services-page">
+  <div class="header">
+    <div class="wrapper">
+      <h2>Services</h2>
+    </div>
+  </div>
+  <div class="wrapper py-5">
+    <h5>
+      Our services include, but are not limited to the following:
+    </h5>
+    <div class="accordion" id="accordionExample">
+      <app-accordion-item *ngFor="let item of servicesList; let index = index" [item]="item"></app-accordion-item>
+    </div>
+  </div>
+</div>

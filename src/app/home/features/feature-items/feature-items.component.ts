@@ -8,8 +8,6 @@ import { FeatureModel } from 'src/app/_shared/models/feature.model';
 })
 export class FeatureItemsComponent implements OnInit {
   @Input() feature: FeatureModel = {
-    title: '',
-    description: '',
     icon: ''
   };
 

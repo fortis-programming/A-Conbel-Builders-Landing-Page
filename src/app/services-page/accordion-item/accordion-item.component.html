@@ -1,0 +1,14 @@
+<div class="accordion-item mb-2">
+  <h2 class="accordion-header" id="headingTwo">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+      [attr.data-bs-target]="'#ming' + item.id" aria-expanded="false" aria-controls="collapseTwo">
+      {{ item.title }}
+    </button>
+  </h2>
+  <div id="{{'ming'+item.id}}" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+    data-bs-parent="#accordionExample">
+    <div class="accordion-body">
+      {{ item.description }}
+    </div>
+  </div>
+</div>

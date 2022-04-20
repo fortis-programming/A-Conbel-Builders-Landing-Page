@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { HomeService } from 'src/app/services/home.service';
 import { FeatureModel } from 'src/app/_shared/models/feature.model';
 
+import * as AOS from 'aos';
+
 @Component({
   selector: 'app-features',
   templateUrl: './features.component.html',
@@ -15,6 +17,7 @@ export class FeaturesComponent implements OnInit {
 
   featureList: FeatureModel[] = [];
   ngOnInit(): void {
+    AOS.init();
     this.homeService.getFeatures().subscribe(response => {
       this.featureList = response.data;
     })
