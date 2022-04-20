@@ -7,20 +7,16 @@ import * as AOS from 'aos';
 @Component({
   selector: 'app-features',
   templateUrl: './features.component.html',
-  styleUrls: ['./features.component.scss']
+  styleUrls: ['./features.component.scss'],
 })
 export class FeaturesComponent implements OnInit {
-
-  constructor(
-    private homeService: HomeService
-  ) { }
+  constructor(private homeService: HomeService) {}
 
   featureList: FeatureModel[] = [];
   ngOnInit(): void {
     AOS.init();
-    this.homeService.getFeatures().subscribe(response => {
+    this.homeService.getFeatures().subscribe((response) => {
       this.featureList = response.data;
-    })
+    });
   }
-
 }

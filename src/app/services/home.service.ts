@@ -13,10 +13,14 @@ export class HomeService {
   constructor(private http: HttpClient) {}
 
   getFeatures(): Observable<BaseResponse<FeatureModel[]>> {
-    return this.http.get<BaseResponse<FeatureModel[]>>('../../assets/mocks/clients.json');
+    return this.http.get<BaseResponse<FeatureModel[]>>(
+      '../../assets/mocks/clients.json'
+    );
   }
 
   getServices(): Observable<BaseResponse<ServiceModel[]>> {
-    return this.http.get<BaseResponse<ServiceModel[]>>('../../assets/mocks/services.json');
+    return this.http.get<BaseResponse<ServiceModel[]>>(
+      '../../assets/mocks/services.json'
+    );
   }
 }

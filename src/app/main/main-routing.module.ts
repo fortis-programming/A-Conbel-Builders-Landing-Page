@@ -9,7 +9,7 @@ import { route as ContactUsRoute } from '../contact-us/contact-us-route.module';
 import { route as HomeRoute } from '../home/home-route.module';
 import { route as ProjectsRoute } from '../projects-page/projects-page-route.module';
 import { route as ProjectPreviewRoute } from '../project-preview/project-preview-route.module';
-import { route as ServicesPageRoute } from '../services-page/services-page-route.module'; 
+import { route as ServicesPageRoute } from '../services-page/services-page-route.module';
 
 const routes: Routes = [
   {
@@ -26,7 +26,7 @@ const routes: Routes = [
       ...HomeRoute,
       ...ProjectsRoute,
       ...ProjectPreviewRoute,
-      ...ServicesPageRoute
+      ...ServicesPageRoute,
     ],
   },
 ];

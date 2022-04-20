@@ -13,10 +13,13 @@ export class ProjectItemComponent implements OnInit {
     description: '',
     image: '',
     location: '',
-    projectDuration: ''
+    projectDuration: '',
+    serviceProvided: [],
   };
 
   constructor() {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    return;
+  }
 }

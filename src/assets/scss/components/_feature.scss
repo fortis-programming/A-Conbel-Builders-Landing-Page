@@ -1,33 +1,33 @@
 .feature {
-   display: flex;
-   flex-direction: column;
-   gap: 0px;
-   align-items: center;
-   
-   h4 {
-      color: $black;
-      line-height: 1.33;
-      font-size: 1.2rem;
-   }
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
 
-   .features-container {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      gap: 1rem;
-      justify-content: center;
-      align-items: center;
-   }
+  h4 {
+    color: $black;
+    line-height: 1.33;
+    font-size: 1.2rem;
+  }
 
-   @media screen and (max-width: 800px) {
-      .features-container {
-         grid-template-columns: repeat(2, 1fr);
-      }
-   }
+  .features-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
 
-   @media screen and (max-width: 520px) {
-      .features-container {
-         grid-template-columns: repeat(1, 1fr);
-      }
-   }
+  @media screen and (max-width: 800px) {
+    .features-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media screen and (max-width: 520px) {
+    .features-container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
 }

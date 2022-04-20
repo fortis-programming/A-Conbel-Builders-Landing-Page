@@ -4,19 +4,19 @@ import { ServiceModel } from 'src/app/_shared/models/service.model';
 @Component({
   selector: 'app-accordion-item',
   templateUrl: './accordion-item.component.html',
-  styleUrls: ['./accordion-item.component.scss']
+  styleUrls: ['./accordion-item.component.scss'],
 })
 export class AccordionItemComponent implements OnInit {
   @Input() item: ServiceModel = {
     id: '',
     title: '',
     description: '',
-    img: ''
-  }
-  
-  constructor() { }
+    img: '',
+  };
+
+  constructor() {}
 
   ngOnInit(): void {
+    return;
   }
-
 }

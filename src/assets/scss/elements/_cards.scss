@@ -17,12 +17,13 @@
   }
 
   &__project-card {
-    width: 299px;
+    width: 288px;
+    height: 280px;
     overflow: hidden;
     margin: auto;
 
     img {
-      height: 280px;
+      margin: auto;
     }
 
     h5 {
@@ -32,11 +33,12 @@
     .card-title {
       margin: auto;
       cursor: default;
+      text-align: center;
     }
 
     .card-img-overlay {
       display: none;
-      background-color: rgba(0, 0, 0, 0.459);
+      background-color: rgba(0, 0, 0, 0.541);
       align-items: center;
       justify-content: center;
     }
@@ -49,7 +51,7 @@
 
     &:hover {
       transition: transform .2s ease;
-      transform: scale(1.01);
+      transform: scale(0.99);
     }
 
     @keyframes animate {
@@ -140,7 +142,7 @@
   height: 300px;
   display: flex;
   align-items: center;
-  
+
   .wrapper {
     display: flex;
     flex-direction: column;
