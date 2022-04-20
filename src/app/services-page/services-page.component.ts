@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ServicesService } from '../services/services.service';
+import { ServiceModel } from '../_shared/models/service.model';
 
 @Component({
   selector: 'app-services-page',
@@ -7,9 +9,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ServicesPageComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private servicesService: ServicesService
+  ) { }
 
+  servicesList: ServiceModel[] = [];
   ngOnInit(): void {
+    this.servicesService.getCompanyServices().subscribe((response) => {
+      this.servicesList = response.data;
+    })
   }
 
 }
