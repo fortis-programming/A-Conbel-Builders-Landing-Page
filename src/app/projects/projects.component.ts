@@ -7,20 +7,16 @@ import * as AOS from 'aos';
 @Component({
   selector: 'app-projects',
   templateUrl: './projects.component.html',
-  styleUrls: ['./projects.component.scss']
+  styleUrls: ['./projects.component.scss'],
 })
 export class ProjectsComponent implements OnInit {
-
-  constructor(
-    private projectService: ProjectsService
-  ) { }
+  constructor(private projectService: ProjectsService) {}
 
   projects: ProjectsModel[] = [];
   ngOnInit(): void {
     AOS.init();
-    this.projectService.getProjects().subscribe(response => {
-      this.projects = response.data
-    })
+    this.projectService.getProjects().subscribe((response) => {
+      this.projects = response.data;
+    });
   }
-
 }

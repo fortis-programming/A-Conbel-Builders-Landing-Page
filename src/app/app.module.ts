@@ -5,16 +5,14 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
+import { initializeApp } from 'firebase/app';
+import { getAnalytics } from 'firebase/analytics';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { FeaturesComponent } from './home/features/features.component';
 import { FeatureItemsComponent } from './home/features/feature-items/feature-items.component';
-
-import { firebaseConfig } from 'src/environments/environment';
 import { ProjectsComponent } from './projects/projects.component';
 import { ProjectItemComponent } from './projects/project-item/project-item.component';
 import { ProjectsPageComponent } from './projects-page/projects-page.component';
@@ -24,6 +22,10 @@ import { ProjectPreviewComponent } from './project-preview/project-preview.compo
 import { ServiceItemComponent } from './services-page/service-item/service-item.component';
 import { SocialProofComponent } from './social-proof/social-proof.component';
 import { AccordionItemComponent } from './services-page/accordion-item/accordion-item.component';
+import { BannerComponent } from './banner/banner.component';
+import { ProjectBannerComponent } from './project-banner/project-banner.component';
+
+import { firebaseConfig } from 'src/environments/environment';
 
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
@@ -31,31 +33,29 @@ const analytics = getAnalytics(app);
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
     AboutComponent,
+    AccordionItemComponent,
+    BannerComponent,
+    ContactUsComponent,
     FeaturesComponent,
     FeatureItemsComponent,
+    HomeComponent,
     ProjectsComponent,
     ProjectItemComponent,
     ProjectsPageComponent,
     ProjectPreviewComponent,
-    ContactUsComponent,
+    ProjectBannerComponent,
     ServicesPageComponent,
     ServiceItemComponent,
     SocialProofComponent,
-    AccordionItemComponent
   ],
-  imports: [
-    AppRoutingModule,
-    BrowserModule,
-    RouterModule,
-    HttpClientModule
-  ],
+  imports: [AppRoutingModule, BrowserModule, RouterModule, HttpClientModule],
   providers: [
     {
-      provide: LocationStrategy, useClass: HashLocationStrategy
-    }
+      provide: LocationStrategy,
+      useClass: HashLocationStrategy,
+    },
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

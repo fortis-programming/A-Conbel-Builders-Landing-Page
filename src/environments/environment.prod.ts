@@ -3,11 +3,11 @@ export const environment = {
 };
 
 export const firebaseConfig = {
-  apiKey: "AIzaSyArU5R0JDQfKn3LhG5BGkcdt46wHkMVbig",
-  authDomain: "a-conbel-builders-corp.firebaseapp.com",
-  projectId: "a-conbel-builders-corp",
-  storageBucket: "a-conbel-builders-corp.appspot.com",
-  messagingSenderId: "87882659461",
-  appId: "1:87882659461:web:f4438e72de3f1d6e0c1bec",
-  measurementId: "G-3R6YV1GPQ2"
+  apiKey: "AIzaSyA08-amMeAW13v5BPXcLcfuj8d6fgIq5lk",
+  authDomain: "a-con-construction-corporation.firebaseapp.com",
+  projectId: "a-con-construction-corporation",
+  storageBucket: "a-con-construction-corporation.appspot.com",
+  messagingSenderId: "337119008712",
+  appId: "1:337119008712:web:5961ef9207ac17eff692fd",
+  measurementId: "G-DE51KVJN5R"
 };

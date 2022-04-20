@@ -1,20 +1,39 @@
 {
-  "data": [
-    {
+  "data": [{
       "id": "1",
-      "title": "Project 1",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum lacus eget diam eleifend ultrices. Proin nec commodo neque, quis mollis est. Quisque dolor diam, pretium sed elit at, convallis convallis augue. Mauris quis nunc vel dolor fringilla faucibus. Etiam blandit leo lectus, eu condimentum quam aliquet sit amet. Vivamus ac facilisis felis, a commodo justo. Pellentesque aliquam ante maximus mi mattis faucibus. Nunc elementum leo et neque venenatis, vel pellentesque tellus maximus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc sed suscipit nunc. Mauris a augue massa.",
+      "title": "Metro Retail Stores Group Inc.",
+      "description": "Construction of Metro Supermarket.",
       "image": "../../../../assets/images/metro_logo-min.jpg",
-      "location": "somewhere",
-      "projectDuration": "20 months"
+      "location": "Ayala Malls Central Block, Cebuy I.T. Park Cebu City",
+      "projectDuration": "2,784",
+      "serviceProvided": ["Interior Fit-Out", "Stainless Works", "WaterProofing Works", "Retrofitting Works"]
     },
     {
       "id": "2",
-      "title": "Project 2",
-      "description": "Sample Description",
+      "title": "Royal Duty Free Shops Inc.",
+      "description": "Construction of one storey cold storage.",
       "image": "../../../../assets/images/royal.png",
-      "location": "somewhere",
-      "projectDuration": "20 months"
+      "location": "Not stated",
+      "projectDuration": "500",
+      "serviceProvided": ["Structural Works", "Architectural Works", "Electrical Works", "Plumbing Works"]
+    },
+    {
+      "id": "3",
+      "title": "Rustan's",
+      "description": "Construction of one storey cold storage.",
+      "image": "https://cdn.shopify.com/s/files/1/0032/3374/2946/files/RCC-Logo-Majorelle_Blue-2_1_150x.png?v=1545817066",
+      "location": "Not stated",
+      "projectDuration": "500",
+      "serviceProvided": ["Structural Works", "Architectural Works", "Electrical Works", "Plumbing Works"]
+    },
+    {
+      "id": "4",
+      "title": "SOGO",
+      "description": "Construction of one storey cold storage.",
+      "image": "https://www.hotelsogo.com/images/logo.jpg",
+      "location": "Not stated",
+      "projectDuration": "500",
+      "serviceProvided": ["Structural Works", "Architectural Works", "Electrical Works", "Plumbing Works"]
     }
   ]
 }

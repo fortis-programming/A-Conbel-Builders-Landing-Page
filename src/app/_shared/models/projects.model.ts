@@ -5,4 +5,5 @@ export interface ProjectsModel {
    image: string;
    location: string;
    projectDuration: string;
+   serviceProvided: Array<string>;
 }

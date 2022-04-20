@@ -9,15 +9,13 @@ import { ServiceModel } from '../_shared/models/service.model';
   styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent implements OnInit {
-  constructor(
-    private homeService: HomeService
-  ) {}
+  constructor(private homeService: HomeService) {}
 
   servicesList: ServiceModel[] = [];
   ngOnInit(): void {
     AOS.init();
     this.homeService.getServices().subscribe((response) => {
-      this.servicesList = response.data; 
-    })
+      this.servicesList = response.data;
+    });
   }
 }

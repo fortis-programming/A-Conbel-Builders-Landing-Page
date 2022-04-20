@@ -1,14 +1,36 @@
 .projects-page {
-   background-color: $offwhite;
+  background-color: $offwhite;
+
+  .header {
+    background-image: url('../../images/background-min.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    display: flex;
+    align-items: flex-end;
+
+    h2 {
+      color: #ffffff;
+      margin: 20px 0;
+    }
+  }
+  
   .wrapper {
     .project-drawer {
       display: flex;
       flex-wrap: wrap;
-      gap: 5px;
+      gap: 1rem;
+      justify-content: space-between;
     }
 
-    .project-drawer > * {
-      margin: auto;
+    .project-drawer>* {
+      margin: auto 0;
+    }
+
+    @media screen and (max-width: 999px) {
+      .project-drawer>* {
+        margin: auto;
+      }
     }
   }
 }

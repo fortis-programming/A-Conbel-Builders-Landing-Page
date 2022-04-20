@@ -1,5 +1,4 @@
 .projects {
-
   .project-container {
     // display: grid;
     // grid-template-columns: repeat(4, 1fr);
@@ -37,9 +36,10 @@
       width: auto;
       margin: auto;
       margin-right: 0;
-      &:hover {      
+
+      &:hover {
         text-decoration: underline;
-      } 
+      }
     }
 
     @media screen and (max-width: 999px) {
@@ -48,6 +48,7 @@
         .icon {
           display: none;
         }
+
         margin: auto;
       }
     }

@@ -86,6 +86,7 @@
         h3 {
           max-width: 400px;
         }
+
         // h3 {
         //   color: rgb(7, 94, 19);
         //   color: linear-gradient(90deg, rgba(7, 94, 19, 1) 0%, rgba(61, 147, 104, 1) 77%, rgba(9, 171, 82, 1) 100%);
@@ -113,6 +114,7 @@
           margin: auto;
           width: 500px;
           text-align: left;
+
           p {
             font-size: 1.2rem;
           }
@@ -128,6 +130,7 @@
 
         .left {
           justify-content: center;
+
           h3 {
             text-align: center;
           }
@@ -138,10 +141,11 @@
 
           .carousel-inner {
             display: flex;
-          
+
           }
+
           .carousel-item {
-          
+
             .carousel-caption {
               margin-left: -65px;
               height: 65%;
@@ -163,51 +167,6 @@
           border: none;
         }
       }
-    }
-  }
-
-  &__banner {
-    background: rgb(7, 94, 19);
-    background: linear-gradient(90deg, rgba(7, 94, 19, 1) 0%, rgba(61, 147, 104, 1) 77%, rgba(9, 171, 82, 1) 100%);
-    z-index: 1;
-
-    .wrapper {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-    }
-
-    button {
-      width: 150px;
-      margin: auto;
-      margin-right: 0;
-    }
-
-    @media screen and (max-width: 999px) {
-      .wrapper {
-        grid-template-columns: repeat(1, 1fr);
-      }
-
-      button {
-        margin-left: 0;
-        margin-top: 10px;
-        width: 100%;
-      }
-    }
-
-    div {
-      display: flex;
-      flex-direction: column;
-    }
-
-    strong,
-    p {
-      color: white;
-      margin: auto 0;
-    }
-
-    strong {
-      font-size: larger;
-      margin-bottom: 10px;
     }
   }
 }
