@@ -1,4 +1,4 @@
 export interface ContactUsRequestModel {
   email: string;
-  password: string;
+  message: string;
 }

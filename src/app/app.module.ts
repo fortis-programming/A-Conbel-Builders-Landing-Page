@@ -26,6 +26,7 @@ import { BannerComponent } from './banner/banner.component';
 import { ProjectBannerComponent } from './project-banner/project-banner.component';
 
 import { firebaseConfig } from 'src/environments/environment';
+import { FormsModule } from '@angular/forms';
 
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
@@ -49,7 +50,7 @@ const analytics = getAnalytics(app);
     ServiceItemComponent,
     SocialProofComponent,
   ],
-  imports: [AppRoutingModule, BrowserModule, RouterModule, HttpClientModule],
+  imports: [AppRoutingModule, BrowserModule, FormsModule, RouterModule, HttpClientModule],
   providers: [
     {
       provide: LocationStrategy,

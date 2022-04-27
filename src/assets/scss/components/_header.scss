@@ -16,10 +16,16 @@
   }
 
   .nav-item {
+    &:hover {
+      a {
+        color: $product-color !important;
+      }
+    }
 
     &:active,
     .active {
       color: $product-color !important;
+      border-bottom: 2px solid $product-color;
     }
   }
 

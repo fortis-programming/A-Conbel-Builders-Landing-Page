@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ContactUsRequestModel } from '../_shared/models/contact-us-request.model';
 
 @Component({
   selector: 'app-contact-us',
@@ -6,13 +7,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contact-us.component.scss'],
 })
 export class ContactUsComponent implements OnInit {
+  contactFormModel: ContactUsRequestModel = {
+    email: '',
+    message: ''
+  }
   constructor() {}
 
   ngOnInit(): void {
     return;
   }
 
-  hasError(): boolean {
-    return true;
+  hasError(formControl: any): boolean {
+    return formControl.invalid && (formControl.dirty || formControl.touched);
   }
 }
