@@ -34,6 +34,15 @@
       "location": "Not stated",
       "projectDuration": "500",
       "serviceProvided": ["Structural Works", "Architectural Works", "Electrical Works", "Plumbing Works"]
+    },
+    {
+      "id": "5",
+      "title": "Construction of Fiesta sà Sugbo",
+      "description": "@ Metro",
+      "image": "https://www.hotelsogo.com/images/logo.jpg",
+      "location": "Metro Ayala Center, Cebu City",
+      "projectDuration": "Metro",
+      "serviceProvided": ["Structural Works", "Architectural Works", "Electrical Works", "Plumbing Works"]
     }
   ]
 }
