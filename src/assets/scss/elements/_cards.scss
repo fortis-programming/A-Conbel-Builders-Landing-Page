@@ -1,5 +1,4 @@
 .cards {
-
   &__feature-card {
     padding: 15px;
     max-width: 250px;
@@ -145,9 +144,25 @@
   a {
     color: $product-color !important;
 
-    p, svg {
+    p,
+    svg {
       color: $product-color !important;
       fill: $product-color;
+    }
+  }
+
+  .button-container {
+    display: flex;
+  }
+
+  @media screen and (max-width: 999px) {
+    .button-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .button-container>* {
+      margin: auto;
     }
   }
 
@@ -167,8 +182,4 @@
       max-width: 150px;
     }
   }
-
-  // background: rgb(7, 94, 19);
-  // background: linear-gradient(90deg, rgba(7, 94, 19, 1) 0%, rgba(61, 147, 104, 1) 77%, rgba(9, 171, 82, 1) 100%);
-  // z-index: 1;
 }
