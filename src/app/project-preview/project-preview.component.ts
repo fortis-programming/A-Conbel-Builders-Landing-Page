@@ -20,7 +20,6 @@ export class ProjectPreviewComponent implements OnInit {
   projectList: ProjectsModel[] = [];
   ngOnInit(): void {
     AOS.init();
-
     this.route.paramMap.subscribe((params) => {
       this.projectId = JSON.stringify(params.get('id'));
     });

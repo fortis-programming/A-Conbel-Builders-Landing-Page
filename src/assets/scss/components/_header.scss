@@ -6,6 +6,7 @@
   background-color: white;
   border-bottom: 1px solid $base-color;
   z-index: 3;
+  overflow: hidden;
 
   .container-fluid {
     padding: 0;
@@ -16,10 +17,16 @@
   }
 
   .nav-item {
+    &:hover {
+      a {
+        color: $product-color !important;
+      }
+    }
 
     &:active,
     .active {
       color: $product-color !important;
+      border-bottom: 2px solid $product-color;
     }
   }
 

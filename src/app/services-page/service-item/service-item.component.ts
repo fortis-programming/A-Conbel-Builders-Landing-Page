@@ -10,8 +10,7 @@ export class ServiceItemComponent implements OnInit {
   @Input() service: ServiceModel = {
     id: '',
     title: '',
-    description: '',
-    img: '',
+    serviceItems: []
   };
 
   constructor() {}

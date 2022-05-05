@@ -137,11 +137,19 @@
 }
 
 .project-banner {
-  background: rgb(34, 193, 195);
-  background: linear-gradient(0deg, rgba(34, 193, 195, 0.05) 0%, rgba(21, 177, 229, 0.02) 100%);
+  background: $banner-color;
   display: flex;
   align-items: center;
   border-top: 1px solid whitesmoke;
+
+  a {
+    color: $product-color !important;
+
+    p, svg {
+      color: $product-color !important;
+      fill: $product-color;
+    }
+  }
 
   .wrapper {
     display: flex;

@@ -12,17 +12,22 @@
       </p>
     </div>
     <div class="form-container mt-4">
-      <div>
+      <form #contactForm="ngForm">
         <div class="form-floating mb-3">
-          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-          <label for="floatingInput">Email address</label>
+          <input type="email" [(ngModel)]="contactFormModel.email" name="email" #email="ngModel" class="form-control"
+            id="floatingInput" placeholder="name@example.com" pattern="[a-z0-9._%+-]+@[a-z.-]+\.com" required="">
+          <label for="floatingInput" *ngIf="!hasError(email)">Email address</label>
+          <label for="floatingInput" class="text-danger" *ngIf="hasError(email) && !email.errors?.['required']">Invalid email</label>
+          <label for="floatingInput" class="text-danger" *ngIf="hasError(email) && email.errors?.['required']">Email is required</label>
         </div>
         <div class="form-floating mb-3">
-          <input type="text" class="form-control" id="floatingMessage" placeholder="Message">
-          <label for="floatingMessage">Message</label>
+          <input [(ngModel)]="contactFormModel.message" name="message" #message="ngModel"
+            type="text" class="form-control" id="floatingMessage" placeholder="Message" required>
+          <label for="floatingMessage" *ngIf="!hasError(message)">Message</label>
+          <label class="text-danger" for="floatingMessage" *ngIf="hasError(message) && message.errors?.['required']">Message is required</label>
         </div>
-        <button class="buttons buttons__primary rounded">Submit</button>
-      </div>
+        <button class="buttons buttons__primary rounded" [disabled]="contactForm.valid">Submit</button>
+      </form>
       <div class="right-banner">
         <p>
           You can also message us through our social media accounts.
@@ -48,3 +53,4 @@
     </div>
   </main>
 </div>
+<app-project-banner></app-project-banner>

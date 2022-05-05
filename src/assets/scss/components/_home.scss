@@ -8,7 +8,7 @@
     background-image: url('../../images/background-min.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 88vh;
+    height: 90vh;
     display: flex;
     align-items: center;
 
@@ -44,26 +44,6 @@
       font-weight: 600;
     }
 
-    // .icon {
-    //   svg {
-    //     height: 20px;
-    //     margin: auto 5px;
-    //     fill: $product-color;
-    //     margin-top: -5px;
-    //   }
-    // }
-
-    // .browser-btn {
-    //   cursor: pointer;
-    //   width: 100%;
-    //   display: flex;
-    //   justify-content: flex-end;
-
-    //   &:hover {
-    //     text-decoration: underline;
-    //   }
-    // }
-
     .services-container {
       display: flex;
       flex-direction: row;
@@ -86,11 +66,6 @@
         h3 {
           max-width: 400px;
         }
-
-        // h3 {
-        //   color: rgb(7, 94, 19);
-        //   color: linear-gradient(90deg, rgba(7, 94, 19, 1) 0%, rgba(61, 147, 104, 1) 77%, rgba(9, 171, 82, 1) 100%);
-        // }
       }
 
       .carousel {
