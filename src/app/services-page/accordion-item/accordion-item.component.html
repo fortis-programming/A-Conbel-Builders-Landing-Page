@@ -8,7 +8,9 @@
   <div id="{{'ming'+item.id}}" class="accordion-collapse collapse" aria-labelledby="headingTwo"
     data-bs-parent="#accordionExample">
     <div class="accordion-body">
-      {{ item.description }}
+      <li *ngFor="let service of item.serviceItems">
+        {{ service }}
+      </li>
     </div>
   </div>
 </div>

@@ -10,8 +10,7 @@ export class AccordionItemComponent implements OnInit {
   @Input() item: ServiceModel = {
     id: '',
     title: '',
-    description: '',
-    img: '',
+    serviceItems: []
   };
 
   constructor() {}

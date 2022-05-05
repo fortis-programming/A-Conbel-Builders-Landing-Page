@@ -1,39 +1,24 @@
 {
-  "data": [{
+  "data": [
+    {
       "id": "1",
-      "title": "Interior Fit-Out",
-      "description": "Can provide service of installation of ceilings, floors, furnishings, and partitions of a building, as well as the installation of all required building services.",
-      "img": "https://cubicinteriorsco.com/wp-content/uploads/2021/05/D3-Business-Center-Fit-Out-Dubai.jpg"
+      "title": "Civil Works",
+      "serviceItems": ["Interior Fit-Out", "Structural", "Architectural", "Finishing Works", "Installation", "Carpentry", "Painting Work"]
     },
     {
       "id": "2",
-      "title": "Civil Works",
-      "description": "Building your dream house shouldn’t be a nightmare! A-conbel builders corporation can provide the service for the creation of infrastructure involving anything to do and what you need.",
-      "img": "http://www.oscorpltd.com/wp-content/uploads/2015/02/p2014095153construction_travaux.jpg"
+      "title": "Electrial Works",
+      "serviceItems": ["Lighting Fixtures", "Electrical Wirings", "Installation of Panel Boards"]
     },
     {
       "id": "3",
-      "title": "Electrial Works",
-      "description": "Good quality wire saves you from fire. A-conbel builders corporation having best solutions for your electrial needs.",
-      "img": "https://cubicinteriorsco.com/wp-content/uploads/2021/05/D3-Business-Center-Fit-Out-Dubai.jpg"
+      "title": "Plumbing Works",
+      "serviceItems": ["Installation of Sanitary Line", "Water Line", "Toilet Fixture"]
     },
     {
       "id": "4",
-      "title": "Plumbing Works",
-      "description": "Good quality wire saves you from fire. A-conbel builders corporation having best solutions for your electrial needs.",
-      "img": "https://cubicinteriorsco.com/wp-content/uploads/2021/05/D3-Business-Center-Fit-Out-Dubai.jpg"
-    },
-    {
-      "id": "5",
       "title": "Mechanical Works",
-      "description": "Good quality wire saves you from fire. A-conbel builders corporation having best solutions for your electrial needs.",
-      "img": "https://cubicinteriorsco.com/wp-content/uploads/2021/05/D3-Business-Center-Fit-Out-Dubai.jpg"
-    },
-    {
-      "id": "6",
-      "title": "Retrofitting Works",
-      "description": "Good quality wire saves you from fire. A-conbel builders corporation having best solutions for your electrial needs.",
-      "img": "https://cubicinteriorsco.com/wp-content/uploads/2021/05/D3-Business-Center-Fit-Out-Dubai.jpg"
+      "serviceItems": ["Installation of Ventillation and Air Conditioning"]
     }
   ]
 }
