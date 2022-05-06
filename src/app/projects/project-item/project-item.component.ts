@@ -12,6 +12,7 @@ export class ProjectItemComponent implements OnInit {
     title: '',
     description: '',
     image: '',
+    imageGallery: [],
     location: '',
     projectDuration: '',
     serviceProvided: [],
