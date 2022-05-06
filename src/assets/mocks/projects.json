@@ -1,45 +1,28 @@
 {
-  "data": [{
+  "data": [
+    {
       "id": "1",
-      "title": "Metro Retail Stores Group Inc.",
-      "description": "Construction of Metro Supermarket.",
-      "image": "../../../../assets/images/metro_logo-min.jpg",
-      "location": "Ayala Malls Central Block, Cebuy I.T. Park Cebu City",
-      "projectDuration": "2,784",
-      "serviceProvided": ["Interior Fit-Out", "Stainless Works", "WaterProofing Works", "Retrofitting Works"]
+      "title": "Church Repainting",
+      "description": "Church Repainting",
+      "image": "../../../../assets/images/2/272735346_1288026498358618_855370989408746707_n-min.jpg",
+      "imageGallery": [
+        "../../../../assets/images/2/272690681_1288026501691951_5749584389353514414_n-min.jpg",
+        "../../../../assets/images/2/272735346_1288026498358618_855370989408746707_n-min.jpg"
+      ],
+      "location": "Quezon City",
+      "projectDuration": "Not stated",
+      "serviceProvided": ["Structural Works", "Architectural Works", "Electrical Works", "Plumbing Works"]
     },
     {
       "id": "2",
-      "title": "Royal Duty Free Shops Inc.",
-      "description": "Construction of one storey cold storage.",
-      "image": "../../../../assets/images/royal.png",
-      "location": "Not stated",
-      "projectDuration": "500",
-      "serviceProvided": ["Structural Works", "Architectural Works", "Electrical Works", "Plumbing Works"]
-    },
-    {
-      "id": "3",
-      "title": "Rustan's",
-      "description": "Construction of one storey cold storage.",
-      "image": "https://cdn.shopify.com/s/files/1/0032/3374/2946/files/RCC-Logo-Majorelle_Blue-2_1_150x.png?v=1545817066",
-      "location": "Not stated",
-      "projectDuration": "500",
-      "serviceProvided": ["Structural Works", "Architectural Works", "Electrical Works", "Plumbing Works"]
-    },
-    {
-      "id": "4",
-      "title": "SOGO",
-      "description": "Construction of one storey cold storage.",
-      "image": "https://www.hotelsogo.com/images/logo.jpg",
-      "location": "Not stated",
-      "projectDuration": "500",
-      "serviceProvided": ["Structural Works", "Architectural Works", "Electrical Works", "Plumbing Works"]
-    },
-    {
-      "id": "5",
       "title": "Construction of Fiesta sà Sugbo",
       "description": "@ Metro",
-      "image": "https://www.hotelsogo.com/images/logo.jpg",
+      "image": "../../../../assets/images/1/272998747_1288642831630318_1160474931631336207_n-min.jpg",
+      "imageGallery": [
+        "../../../../assets/images/1/272849921_1288642828296985_3780445303490825716_n-min.jpg",
+        "../../../../assets/images/1/272874611_1288642811630320_3108040658016653836_n-min.jpg",
+        "../../../../assets/images/1/272998747_1288642831630318_1160474931631336207_n-min.jpg"
+      ],
       "location": "Metro Ayala Center, Cebu City",
       "projectDuration": "Metro",
       "serviceProvided": ["Structural Works", "Architectural Works", "Electrical Works", "Plumbing Works"]

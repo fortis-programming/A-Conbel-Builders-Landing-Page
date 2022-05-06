@@ -38,6 +38,7 @@ export class ProjectPreviewComponent implements OnInit {
     title: '',
     description: '',
     image: '',
+    imageGallery: [],
     location: '',
     projectDuration: '',
     serviceProvided: [],

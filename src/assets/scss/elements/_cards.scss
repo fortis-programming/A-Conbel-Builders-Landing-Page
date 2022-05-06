@@ -22,7 +22,7 @@
     margin: auto;
 
     img {
-      margin: auto;
+      height: 100%;
     }
 
     h5 {
@@ -31,15 +31,14 @@
 
     .card-title {
       margin: auto;
-      cursor: default;
       text-align: center;
+      cursor: default;
+
     }
 
     .card-img-overlay {
       display: none;
       background-color: rgba(0, 0, 0, 0.541);
-      align-items: center;
-      justify-content: center;
     }
 
     &:hover .card-img-overlay {
