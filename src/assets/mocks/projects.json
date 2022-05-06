@@ -26,6 +26,52 @@
       "location": "Metro Ayala Center, Cebu City",
       "projectDuration": "Metro",
       "serviceProvided": ["Structural Works", "Architectural Works", "Electrical Works", "Plumbing Works"]
+    },
+    {
+      "id": "3",
+      "title": "Construction of Rose Pharmacy The Space",
+      "description": "@ Metro",
+      "image": "../../../../assets/images/3/272738793_1288645171630084_2847407782595458127_n-min.jpg",
+      "imageGallery": [
+        "../../../../assets/images/3/272766938_1288645221630079_5199565716118083718_n-min.jpg",
+        "../../../../assets/images/3/272795119_1288645154963419_7210114593753350550_n-min.jpg",
+        "../../../../assets/images/3/272828434_1288645191630082_3223791494808431999_n-min.jpg",
+        "../../../../assets/images/3/272840766_1288645174963417_2030664048283298311_n-min.jpg"
+      ],
+      "location": "Mandaue City, Cebu",
+      "projectDuration": "Rose Pharmacy Inc.",
+      "serviceProvided": ["Architectural Works", "Electrical Works", "Plumbing Works"]
+    },
+    {
+      "id": "4",
+      "title": "On going Restoration of 34 rooms",
+      "description": "@ Hotel Sogo Edsa Cubao",
+      "image": "../../../../assets/images/4/272742640_1288725761622025_7102502035553551989_n-min.jpg",
+      "imageGallery": [
+        "../../../../assets/images/4/272742640_1288725761622025_7102502035553551989_n-min.jpg",
+        "../../../../assets/images/4/272789869_1288725798288688_2396178162167174162_n-min.jpg",
+        "../../../../assets/images/4/272795906_1288725781622023_6360637623288982669_n-min.jpg"
+      ],
+      "location": "Cubao, Quezon City",
+      "projectDuration": "2nd Inn Inc.",
+      "serviceProvided": ["Architectural Works", "Electrical Works", "Plumbing Works"]
+    },
+    {
+      "id": "5",
+      "title": "Metro",
+      "description": "@ Hotel Sogo Edsa Cubao",
+      "image": "../../../../assets/images/5/279472939_947237725945075_5296081732386285162_n-min.jpg",
+      "imageGallery": [
+        "../../../../assets/images/5/279421032_534235004714924_2697432912855161046_n-min.jpg",
+        "../../../../assets/images/5/279421032_534235004714924_2697432912855161046_n-min.jpg",
+        "../../../../assets/images/5/279453733_459873002561059_5472029292180230366_n-min.jpg",
+        "../../../../assets/images/5/279472939_947237725945075_5296081732386285162_n-min.jpg",
+        "../../../../assets/images/5/279583915_1977432369103469_2974774920770450691_n-min.jpg",
+        "../../../../assets/images/5/279766450_373867634682825_7213119768891159651_n-min.jpg"
+      ],
+      "location": "Cubao, Quezon City",
+      "projectDuration": "2nd Inn Inc.",
+      "serviceProvided": ["Architectural Works", "Electrical Works", "Plumbing Works"]
     }
   ]
 }

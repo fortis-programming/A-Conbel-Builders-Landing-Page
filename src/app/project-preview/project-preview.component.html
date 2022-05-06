@@ -2,15 +2,13 @@
   <div class="carousel-container">
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
-        <button type="button" *ngFor="let service of projectDetails.imageGallery; let index = index" data-bs-target="#carouselExampleIndicators" [attr.data-bs-slide-to]="index" [ngClass]="{'active': index == 0}"
+        <button type="button" *ngFor="let service of projectDetails.imageGallery; let index = index"
+          data-bs-target="#carouselExampleIndicators" [attr.data-bs-slide-to]="index" [ngClass]="{'active': index == 0}"
           aria-current="true" aria-label="Slide 1"></button>
-        <!-- <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-          aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-          aria-label="Slide 3"></button> -->
       </div>
       <div class="carousel-inner">
-        <div class="carousel-item img-fluid" [ngClass]="{'active': index == 0}" *ngFor="let image of projectDetails.imageGallery; let index = index">
+        <div class="carousel-item img-fluid" [ngClass]="{'active': index == 0}"
+          *ngFor="let image of projectDetails.imageGallery; let index = index">
           <img src="{{image}}" class="d-block w-100" alt="...">
         </div>
       </div>
@@ -39,9 +37,9 @@
     <div class="project-details-container">
       <section class="description">
         <h2 class="mb-3">{{ projectDetails.title }}</h2>
-        <p>
-          <!-- {{ projectDetails.description }} -->
-        </p>
+        <!-- <p>
+          {{ projectDetails.description }}
+        </p> -->
         <div class="service-provided">
           <div class="cards__services rounded" data-aos="zoom-in" data-aos-once="true"
             *ngFor="let service of projectDetails.serviceProvided">
@@ -67,4 +65,6 @@
     </div>
   </main>
 </div>
-<app-project-banner></app-project-banner>
+<div class="banner py-5">
+  <app-banner></app-banner>
+</div>

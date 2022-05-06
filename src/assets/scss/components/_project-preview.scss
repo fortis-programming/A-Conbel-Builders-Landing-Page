@@ -8,6 +8,7 @@
     a,
     p {
       margin: auto 0;
+      color: $base-color1;
       font-weight: 600;
     }
 
@@ -24,11 +25,15 @@
   }
 
   .carousel {
-    .carousel-indicators>* {
+    .carousel-indicators > * {
       border-radius: 50%;
       width: 8px;
       height: 8px;
       margin: auto 5px;
+    }
+
+    .carousel-indicators .active {
+      background-color: $product-color;
     }
 
     .carousel-item {
