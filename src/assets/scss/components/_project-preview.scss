@@ -65,11 +65,11 @@
       .project-details {
         gap: 5px;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
 
         svg {
-          height: 30px;
-          display: none;
+          fill: red;
+          height: 20px;
         }
       }
     }
