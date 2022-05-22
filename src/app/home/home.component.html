@@ -14,22 +14,34 @@
       <app-features></app-features>
     </div>
   </div>
+
   <div class="home__projects">
     <div class="wrapper py-5">
       <h3 class="mb-2">Our Services</h3>
       <p>
         A-Conbel can offer you a quality services like
-        <!-- Services that our company can offer. Our company can provide quality  -->
       </p>
       <div class="services-container">
-        <app-service-item *ngFor="let service of servicesList" [service]="service" data-aos="zoom-in" data-aos-once="true"
-          data-aos-delay="200"></app-service-item>
+        <app-service-item *ngFor="let service of servicesList" [service]="service" data-aos="zoom-in"
+          data-aos-once="true" data-aos-delay="200"></app-service-item>
       </div>
     </div>
   </div>
+
   <div class="home__another py-5">
     <app-social-proof></app-social-proof>
   </div>
+
+  <div class="home__feature py-5">
+    <div class="wrapper py-5">
+      <p class="blockquote text-center">
+        "Choosing a-con builders is a right choice for you since we provide quality works and establish good
+        relationship with our clients. We can assure you that our services can surpass other companies and comply strict
+        safety precautions towards our employees.""
+      </p>
+    </div>
+  </div>
+  
   <div class="banner py-5">
     <app-banner></app-banner>
   </div>
