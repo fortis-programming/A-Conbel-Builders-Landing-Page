@@ -25,8 +25,6 @@
     }
   }
 
-
-
   .browse-container {
     display: flex;
     justify-items: flex-end;
@@ -62,4 +60,9 @@
   p {
     max-width: 380px;
   }
+}
+
+
+.projects-page {
+  min-height: 50vh;
 }
