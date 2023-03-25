@@ -1,13 +1,5 @@
 <div class="home">
   <div class="home__hero">
-    <div class="wrapper d-flex flex-column">
-      <h1 data-aos="fade-up">Turning your architectural vision
-        into reality.</h1>
-      <button class="buttons buttons__hero shadow-sm mt-4 rounded" data-aos="fade-up" data-aos-delay="150"
-        routerLink="../contact-us">
-        Contact us
-      </button>
-    </div>
   </div>
   <div class="home__feature py-3">
     <div class="wrapper">
@@ -19,11 +11,10 @@
       <h3 class="mb-2">Our Services</h3>
       <p>
         A-Conbel can offer you a quality services like
-        <!-- Services that our company can offer. Our company can provide quality  -->
       </p>
       <div class="services-container">
-        <app-service-item *ngFor="let service of servicesList" [service]="service" data-aos="zoom-in" data-aos-once="true"
-          data-aos-delay="200"></app-service-item>
+        <app-service-item *ngFor="let service of servicesList" [service]="service" data-aos="zoom-in"
+          data-aos-once="true" data-aos-delay="200"></app-service-item>
       </div>
     </div>
   </div>

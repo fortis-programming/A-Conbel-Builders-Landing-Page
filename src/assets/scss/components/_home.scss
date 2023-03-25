@@ -5,10 +5,10 @@
   }
 
   &__hero {
-    background-image: url('../../images/background-min.jpg');
+    background-image: url('../../images/Cover.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 90vh;
+    height: 80vh;
     display: flex;
     align-items: center;
 
@@ -29,8 +29,6 @@
     }
   }
 
-  &__feature {}
-
   &__projects {
     z-index: 2;
     background-color: $offwhite;
@@ -46,7 +44,7 @@
 
     .services-container {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       gap: 1rem;
       flex-wrap: wrap;
       margin-top: 20px;
